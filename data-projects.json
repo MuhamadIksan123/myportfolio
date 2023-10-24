@@ -1,0 +1,26 @@
+[
+  {
+    "judul": "Website Baca Komik",
+    "gambar": "assets/images/project/Semina-Landing-Page2.png",
+    "deskripsi": "Website Marketplace, Baca dan Publikasi Komik. Dibuat dengan menggunakan MERN",
+    "url": "https://landingpage-komiksun.vercel.app/"
+  },
+  {
+    "judul": "Website Informasi Desa",
+    "gambar": "assets/images/project/Desa-Belawa-ID2.png",
+    "deskripsi": "Website Katalog Informasi Desa Belawa. Dibuat menggunakan Javascript dan NodeJs",
+    "url": "https://belawa.netlify.app"
+  },
+  {
+    "judul": "Web Profil UMKM Mangga",
+    "gambar": "assets/images/project/mangga.png",
+    "deskripsi": "Website Profil UMKM Mangga Belawa. Dibuat menggunakan HTML, CSS dan Javascript",
+    "url": "https://melcika-belawa.netlify.app/"
+  },
+  {
+    "judul": "Website Kepegawaian Sekolah",
+    "gambar": "assets/images/project/Data-Kepegawaian2.png",
+    "deskripsi": "Website Kepegawaian Sekolah MA NU. Dibuat dengan menggunakan Codeigniter dan Javascript",
+    "url": "https://kepegawaian-sekolah.000webhostapp.com"
+  }
+]
