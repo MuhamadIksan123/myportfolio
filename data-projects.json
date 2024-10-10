@@ -1,0 +1,56 @@
+[
+  {
+    "judul": "Website Baca Komik",
+    "gambar": "assets/images/project/Semina-Landing-Page2.png",
+    "deskripsi": "Website Marketplace, Baca dan Publikasi Komik. Dibuat dengan menggunakan MERN",
+    "url": "https://landingpage-komiksun.vercel.app/"
+  },
+  {
+    "judul": "Website Informasi Desa",
+    "gambar": "assets/images/project/Desa-Belawa-ID2.png",
+    "deskripsi": "Website Katalog Informasi Desa Belawa. Dibuat menggunakan Javascript dan NodeJs",
+    "url": "https://belawa.netlify.app"
+  },
+  {
+    "judul": "Web Profil UMKM Mangga",
+    "gambar": "assets/images/project/mangga.png",
+    "deskripsi": "Website Profil UMKM Mangga Belawa. Dibuat menggunakan HTML, CSS dan Javascript",
+    "url": "https://melcika-belawa.netlify.app/"
+  },
+  {
+    "judul": "Website Kepegawaian Sekolah",
+    "gambar": "assets/images/project/Data-Kepegawaian2.png",
+    "deskripsi": "Website Kepegawaian Sekolah MA NU. Dibuat dengan menggunakan Codeigniter dan Javascript",
+    "url": "https://kepegawaian-sekolah.000webhostapp.com"
+  },
+  {
+    "judul": "Website Anime List",
+    "gambar": "assets/images/project/sananimelist.png",
+    "deskripsi": "Website Anime List. Dibuat menggunakan Nextjs dan tailwind",
+    "url": "https://san-animelist.vercel.app/"
+  },
+  {
+    "judul": "Website Movie List",
+    "gambar": "assets/images/project/sanmovie-list.png",
+    "deskripsi": "Website Movie List. Dibuat menggunakan HTML dan Bootstrapcss dan Javascript",
+    "url": "https://sanmovie.netlify.app"
+  },
+  {
+    "judul": "Website Portfolio Bootstrap",
+    "gambar": "assets/images/project/portfolio-bootstrap.png",
+    "deskripsi": "Website Portfolio Bootstrap. Dibuat menggunakan menggunakan HTML, Bootstrapcss dan Javascript",
+    "url": "https://iksanportfolio-bootstrap.netlify.app/"
+  },
+  {
+    "judul": "Website Portfolio Tailwind",
+    "gambar": "assets/images/project/portfolio-tailiwind.png",
+    "deskripsi": "Website Portfolio Tailwind. Dibuat menggunakan menggunakan HTML, Tailwindcss dan Javascript",
+    "url": "https://kepegawaian-sekolah.000webhostapp.com"
+  },
+  {
+    "judul": "Website Book List",
+    "gambar": "assets/images/project/sansbook.png",
+    "deskripsi": "Website Book List. Dibuat menggunakan HTML dan Bootstrapcss",
+    "url": "https://sans-book.vercel.app"
+  }
+]
