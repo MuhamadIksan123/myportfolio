@@ -2,55 +2,58 @@
   {
     "judul": "Website Baca Komik",
     "gambar": "assets/images/project/Semina-Landing-Page2.png",
-    "deskripsi": "Website Marketplace, Baca dan Publikasi Komik. Dibuat dengan menggunakan MERN",
-    "url": "https://landingpage-komiksun.vercel.app/"
+    "deskripsi": "Website Marketplace, Baca dan Publikasi Komik. Untuk mempermudah transaksi dan baca komik",
+    "url": "https://landingpage-komiksun.vercel.app/",
+    "icons": [
+      "assets/icons/mongodb.svg",
+      "assets/icons/expressjs.svg",
+      "assets/icons/react.svg",
+      "assets/icons/nodejs.svg",
+      "assets/icons/nextjs.svg",
+      "assets/icons/bootstrap.svg"
+    ]
   },
   {
     "judul": "Website Informasi Desa",
-    "gambar": "assets/images/project/Desa-Belawa-ID2.png",
-    "deskripsi": "Website Katalog Informasi Desa Belawa. Dibuat menggunakan Javascript dan NodeJs",
-    "url": "https://belawa.netlify.app"
+    "gambar": "assets/images/project/desa-belawa.jpg",
+    "deskripsi": "Website Portal Berita Desa Belawa. Untuk mempermudah mendapatkan informasi Desa Belawa",
+    "url": "https://desa-belawa22.netlify.app/",
+    "icons": [
+      "assets/icons/react.svg",
+      "assets/icons/nodejs.svg",
+      "assets/icons/bootstrap.svg"
+    ]
   },
   {
     "judul": "Web Profil UMKM Mangga",
     "gambar": "assets/images/project/mangga.png",
-    "deskripsi": "Website Profil UMKM Mangga Belawa. Dibuat menggunakan HTML, CSS dan Javascript",
-    "url": "https://melcika-belawa.netlify.app/"
+    "deskripsi": "Website Profil UMKM Mangga Belawa. Untuk mempromsikan dan mempermudah transaksi",
+    "url": "https://melcika-belawa.netlify.app/",
+    "icons": [
+      "assets/icons/html.svg",
+      "assets/icons/css.svg"
+    ]
   },
   {
     "judul": "Website Kepegawaian Sekolah",
     "gambar": "assets/images/project/Data-Kepegawaian2.png",
-    "deskripsi": "Website Kepegawaian Sekolah MA NU. Dibuat dengan menggunakan Codeigniter dan Javascript",
-    "url": "https://kepegawaian-sekolah.000webhostapp.com"
+    "deskripsi": "Website Kepegawaian Sekolah MA NU. Untuk mempermudah pengelolaan data kepegawaian sekolah",
+    "url": "https://kepegawaian-sekolah.000webhostapp.com",
+    "icons": [
+      "assets/icons/codeigniter.svg",
+      "assets/icons/mysql.svg",
+      "assets/icons/bootstrap.svg"
+    ]
   },
   {
     "judul": "Website Anime List",
     "gambar": "assets/images/project/sananimelist.png",
-    "deskripsi": "Website Anime List. Dibuat menggunakan Nextjs dan tailwind",
-    "url": "https://san-animelist.vercel.app/"
-  },
-  {
-    "judul": "Website Movie List",
-    "gambar": "assets/images/project/sanmovie-list.png",
-    "deskripsi": "Website Movie List. Dibuat menggunakan HTML dan Bootstrapcss dan Javascript",
-    "url": "https://sanmovie.netlify.app"
-  },
-  {
-    "judul": "Website Portfolio Bootstrap",
-    "gambar": "assets/images/project/portfolio-bootstrap.png",
-    "deskripsi": "Website Portfolio Bootstrap. Dibuat menggunakan menggunakan HTML, Bootstrapcss dan Javascript",
-    "url": "https://iksanportfolio-bootstrap.netlify.app/"
-  },
-  {
-    "judul": "Website Portfolio Tailwind",
-    "gambar": "assets/images/project/portfolio-tailiwind.png",
-    "deskripsi": "Website Portfolio Tailwind. Dibuat menggunakan menggunakan HTML, Tailwindcss dan Javascript",
-    "url": "https://muhamadiksan123.github.io/portfolio-tailwind-css/"
-  },
-  {
-    "judul": "Website Book List",
-    "gambar": "assets/images/project/sansbook.png",
-    "deskripsi": "Website Book List. Dibuat menggunakan HTML dan Bootstrapcss",
-    "url": "https://sans-book.vercel.app"
+    "deskripsi": "Website Anime List. Untuk mendapatkan list informasi anime terbaru",
+    "url": "https://san-animelist.vercel.app/",
+    "icons": [
+      "assets/icons/nextjs.svg",
+      "assets/icons/tailwind.svg",
+      "assets/icons/prisma-orm.svg"
+    ]
   }
 ]
