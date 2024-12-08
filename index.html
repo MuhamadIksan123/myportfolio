@@ -13,6 +13,12 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Magnific -->
+    <link rel="stylesheet" href="assets/css/magnific.css" />
+
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body class="bg-body-tertiary py-5">
@@ -20,12 +26,14 @@
       <div class="row justify-content-center">
         <!-- Profil -->
         <div class="col-md-12 text-center">
-          <img
-            src="assets/images/photo-profile.png"
-            class="rounded-circle mb-3"
-            alt="photo-profile"
-            width="120"
-          />
+          <a href="assets/images/photo-profile.png" class="image-link">
+            <img
+              src="assets/images/photo-profile.png"
+              class="rounded-circle mb-3"
+              alt="photo-profile"
+              width="120"
+            />
+          </a>
           <h4 class="fw-semibold">Muhamad Iksan</h4>
           <p class="text-secondary">Web Developer | Freelance</p>
           <!-- Sosial Media -->
@@ -67,7 +75,10 @@
         <!-- Konten -->
         <section class="col-md-12">
           <!-- Tab Navigasi -->
-          <ul class="nav nav-pills mb-5 justify-content-center gap-2">
+          <ul
+            class="nav nav-pills mb-5 justify-content-center gap-2"
+            data-aos="fade-up"
+          >
             <li class="nav-item">
               <button
                 class="nav-link active"
@@ -108,119 +119,118 @@
             </div>
 
             <!-- Body Skills -->
-              <div
-                class="tab-pane fade"
-                id="pills-skills"
-                role="tabpanel"
-                aria-labelledby="pills-skills-tab"
-                tabindex="0"
-                id="skills"
-              >
-                <div class="row justify-content-center">
-                  <div class="col-md-8">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <h5 class="text-dark mb-5">Front-End</h5>
+            <div
+              class="tab-pane fade"
+              id="pills-skills"
+              role="tabpanel"
+              aria-labelledby="pills-skills-tab"
+              tabindex="0"
+              id="skills"
+              data-aos="fade-up"
+            >
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h5 class="text-dark mb-5">Front-End</h5>
 
-                        <div class="row">
-                          <div class="col-6">
-                            <div class="d-flex gap-2 mb-3">
-                              <i class="bx bx-check-circle text-primary"></i>
-                              <div>
-                                <h6 class="fw-semibold">HTML</h6>
-                                <p class="text-secondary">Pro</p>
-                              </div>
-                            </div>
-                            <div class="d-flex gap-2 mb-3">
-                              <i class="bx bx-check-circle text-primary"></i>
-                              <div>
-                                <h6 class="fw-semibold">CSS</h6>
-                                <p class="text-secondary">Pro</p>
-                              </div>
-                            </div>
-                            <div class="d-flex gap-2 mb-3">
-                              <i class="bx bx-check-circle text-primary"></i>
-                              <div>
-                                <h6 class="fw-semibold">Javascript</h6>
-                                <p class="text-secondary">Pro</p>
-                              </div>
-                            </div>
-                            <div class="d-flex gap-2 mb-3">
-                              <i class="bx bx-check-circle text-primary"></i>
-                              <div>
-                                <h6 class="fw-semibold">Tailwind</h6>
-                                <p class="text-secondary">Pro</p>
-                              </div>
+                      <div class="row">
+                        <div class="col-6">
+                          <div class="d-flex gap-2 mb-3">
+                            <i class="bx bx-check-circle text-primary"></i>
+                            <div>
+                              <h6 class="fw-semibold">HTML</h6>
+                              <p class="text-secondary">Pro</p>
                             </div>
                           </div>
-                          <div class="col-6">
-                            <div class="d-flex gap-2 mb-3">
-                              <i class="bx bx-check-circle text-primary"></i>
-                              <div>
-                                <h6 class="fw-semibold">ReactJs</h6>
-                                <p class="text-secondary">Pro</p>
-                              </div>
+                          <div class="d-flex gap-2 mb-3">
+                            <i class="bx bx-check-circle text-primary"></i>
+                            <div>
+                              <h6 class="fw-semibold">CSS</h6>
+                              <p class="text-secondary">Pro</p>
                             </div>
-                            <div class="d-flex gap-2 mb-3">
-                              <i class="bx bx-check-circle text-primary"></i>
-                              <div>
-                                <h6 class="fw-semibold">NextJs</h6>
-                                <p class="text-secondary">Pro</p>
-                              </div>
+                          </div>
+                          <div class="d-flex gap-2 mb-3">
+                            <i class="bx bx-check-circle text-primary"></i>
+                            <div>
+                              <h6 class="fw-semibold">Javascript</h6>
+                              <p class="text-secondary">Pro</p>
                             </div>
-                            <div class="d-flex gap-2 mb-3">
-                              <i class="bx bx-check-circle text-primary"></i>
-                              <div>
-                                <h6 class="fw-semibold">Bootstrap</h6>
-                                <p class="text-secondary">Pro</p>
-                              </div>
-                            </div>
-                            <div class="d-flex gap-2 mb-3">
+                          </div>
+                          <div class="d-flex gap-2 mb-3">
+                            <i class="bx bx-check-circle text-primary"></i>
+                            <div>
+                              <h6 class="fw-semibold">Tailwind</h6>
+                              <p class="text-secondary">Pro</p>
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="col-md-6">
-                        <h5 class="text-dark mb-5">Back-End</h5>
-
-                        <div class="row">
-                          <div class="col-6">
-                            <div class="d-flex gap-2 mb-3">
-                              <i class="bx bx-check-circle text-primary"></i>
-                              <div>
-                                <h6 class="fw-semibold">NodeJs</h6>
-                                <p class="text-secondary">Pro</p>
-                              </div>
-                            </div>
-                            <div class="d-flex gap-2 mb-3">
-                              <i class="bx bx-check-circle text-primary"></i>
-                              <div>
-                                <h6 class="fw-semibold">Laravel</h6>
-                                <p class="text-secondary">Pro</p>
-                              </div>
-                            </div>
-                            <div class="d-flex gap-2 mb-3">
-                              <i class="bx bx-check-circle text-primary"></i>
-                              <div>
-                                <h6 class="fw-semibold">MySQL</h6>
-                                <p class="text-secondary">Pro</p>
-                              </div>
+                        <div class="col-6">
+                          <div class="d-flex gap-2 mb-3">
+                            <i class="bx bx-check-circle text-primary"></i>
+                            <div>
+                              <h6 class="fw-semibold">ReactJs</h6>
+                              <p class="text-secondary">Pro</p>
                             </div>
                           </div>
-                          <div class="col-6">
-                            <div class="d-flex gap-2 mb-3">
-                              <i class="bx bx-check-circle text-primary"></i>
-                              <div>
-                                <h6 class="fw-semibold">Git</h6>
-                                <p class="text-secondary">Pro</p>
-                              </div>
+                          <div class="d-flex gap-2 mb-3">
+                            <i class="bx bx-check-circle text-primary"></i>
+                            <div>
+                              <h6 class="fw-semibold">NextJs</h6>
+                              <p class="text-secondary">Pro</p>
                             </div>
-                            <div class="d-flex gap-2 mb-3">
-                              <i class="bx bx-check-circle text-primary"></i>
-                              <div>
-                                <h6 class="fw-semibold">Github</h6>
-                                <p class="text-secondary">Pro</p>
-                              </div>
+                          </div>
+                          <div class="d-flex gap-2 mb-3">
+                            <i class="bx bx-check-circle text-primary"></i>
+                            <div>
+                              <h6 class="fw-semibold">Bootstrap</h6>
+                              <p class="text-secondary">Pro</p>
+                            </div>
+                          </div>
+                          <div class="d-flex gap-2 mb-3"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <h5 class="text-dark mb-5">Back-End</h5>
+
+                      <div class="row">
+                        <div class="col-6">
+                          <div class="d-flex gap-2 mb-3">
+                            <i class="bx bx-check-circle text-primary"></i>
+                            <div>
+                              <h6 class="fw-semibold">NodeJs</h6>
+                              <p class="text-secondary">Pro</p>
+                            </div>
+                          </div>
+                          <div class="d-flex gap-2 mb-3">
+                            <i class="bx bx-check-circle text-primary"></i>
+                            <div>
+                              <h6 class="fw-semibold">Laravel</h6>
+                              <p class="text-secondary">Pro</p>
+                            </div>
+                          </div>
+                          <div class="d-flex gap-2 mb-3">
+                            <i class="bx bx-check-circle text-primary"></i>
+                            <div>
+                              <h6 class="fw-semibold">MySQL</h6>
+                              <p class="text-secondary">Pro</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <div class="d-flex gap-2 mb-3">
+                            <i class="bx bx-check-circle text-primary"></i>
+                            <div>
+                              <h6 class="fw-semibold">Git</h6>
+                              <p class="text-secondary">Pro</p>
+                            </div>
+                          </div>
+                          <div class="d-flex gap-2 mb-3">
+                            <i class="bx bx-check-circle text-primary"></i>
+                            <div>
+                              <h6 class="fw-semibold">Github</h6>
+                              <p class="text-secondary">Pro</p>
                             </div>
                           </div>
                         </div>
@@ -229,7 +239,8 @@
                   </div>
                 </div>
               </div>
-              <!-- End Body Skills -->
+            </div>
+            <!-- End Body Skills -->
 
             <!-- Sertifikasi -->
             <div class="tab-pane fade" id="certifications">
@@ -247,6 +258,14 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Magnific -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/js/magnific.js"></script>
+
     <script>
       // Fungsi load data dinamis
       function loadData(containerId, dataUrl, templateFn) {
@@ -261,11 +280,13 @@
 
       // Template proyek
       const projectTemplate = (project) => `
-        <div class="col-md-4 mb-3">
+        <div class="col-md-4 mb-3" data-aos="fade-up">
           <a href="${project.url}" class="card border-0 mb-3 shadow-lg">
-            <img src="${project.gambar}" class="card-img-top object-fit-cover shadow" alt="${
-          project.judul
-        }" style="height: 250px" />
+            <img src="${
+              project.gambar
+            }" class="card-img-top object-fit-cover shadow" alt="${
+        project.judul
+      }" style="height: 250px" />
             <div class="card-body">
               <h5 class="card-title">${project.judul}</h5>
               <!-- Bagian Ikon -->
@@ -286,8 +307,8 @@
 
       // Template sertifikasi
       const certificationTemplate = (certification) => `
-        <div class="col-md-4">
-          <a href="${certification.url}" class="card border-0 mb-3">
+        <div class="col-md-4" data-aos="fade-up">
+          <a href="${certification.url}" class="card border-0 mb-3 shadow-lg">
             <img src="${certification.gambar}" class="card-img-top" alt="${certification.judul}" />
             <div class="card-body">
               <h5 class="card-title">${certification.judul}</h5>
@@ -304,6 +325,24 @@
         'data-certifications.json',
         certificationTemplate
       );
+
+      // aos
+      AOS.init();
+
+      // Magnific
+      $(document).ready(function () {
+        $('.image-link').magnificPopup({
+          type: 'image',
+          retina: {
+            ratio: 1,
+            replaceSrc: function (item, ratio) {
+              return item.src.replace(/\.\w+$/, function (m) {
+                return '@2x' + m;
+              });
+            },
+          },
+        });
+      });
     </script>
   </body>
 </html>
