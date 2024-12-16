@@ -15,13 +15,13 @@
   },
   {
     "judul": "Website Informasi Desa",
-    "gambar": "assets/images/project/desa-belawa.jpg",
+    "gambar": "assets/images/project/belawa.jpg",
     "deskripsi": "Website Portal Berita Desa Belawa. Untuk mempermudah mendapatkan informasi Desa Belawa",
-    "url": "https://desa-belawa22.netlify.app/",
+    "url": "https://berita-desa-belawa.vercel.app",
     "icons": [
       "assets/icons/react.svg",
-      "assets/icons/nodejs.svg",
-      "assets/icons/bootstrap.svg"
+      "assets/icons/tailwind.svg",
+      "assets/icons/nextjs.svg"
     ]
   },
   {
