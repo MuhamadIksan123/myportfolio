@@ -59,12 +59,23 @@
   {
     "judul": "Website Portal Job",
     "gambar": "assets/images/project/job_portal.png",
-    "deskripsi": "Website Portal Job. Untuk mempermudah mendapatkan serta mencari pekerjaan yang sesuai dengan minat",
+    "deskripsi": "Website Portal Job. Untuk mempermudah mendapatkan pekerjaan yang sesuai dengan minat",
     "url": "https://chambray-stoat-c50.notion.site/Wesite-Portal-Job-16795e81049380e991b8efb9ccf5cebf",
     "icons": [
       "assets/icons/laravel.svg",
       "assets/icons/mysql.svg",
       "assets/icons/tailwind.svg"
+    ]
+  },
+  {
+    "judul": "Website Presensi",
+    "gambar": "assets/images/project/job_portal.png",
+    "deskripsi": "Website Presensi. Untuk mempermudah pekerja dalam melakukan presensi serta pengelolaan datanya",
+    "url": "https://chambray-stoat-c50.notion.site/Wesite-Portal-Job-16795e81049380e991b8efb9ccf5cebf",
+    "icons": [
+      "assets/icons/codeigniter.svg",
+      "assets/icons/mysql.svg",
+      "assets/icons/bootstrap.svg"
     ]
   }
 ]
