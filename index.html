@@ -279,14 +279,26 @@
       }
 
       // Template proyek
+      // Template proyek dengan loader
       const projectTemplate = (project) => `
         <div class="col-md-4 mb-3" data-aos="fade-up">
           <a href="${project.url}" class="card border-0 mb-3 shadow-lg">
-            <img src="${
-              project.gambar
-            }" class="card-img-top object-fit-cover shadow" alt="${
-        project.judul
-      }" style="height: 250px" />
+            <div class="position-relative" style="height: 250px;">
+              <!-- Loader -->
+              <div class="loader position-absolute top-50 start-50 translate-middle">
+                <div class="spinner-border text-primary" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+              </div>
+              <!-- Gambar -->
+              <img 
+                src="${project.gambar}" 
+                class="card-img-top object-fit-cover shadow d-none" 
+                alt="${project.judul}" 
+                style="height: 250px;" 
+                onload="this.classList.remove('d-none'); this.previousElementSibling.style.display = 'none';" 
+              />
+            </div>
             <div class="card-body">
               <h5 class="card-title">${project.judul}</h5>
               <!-- Bagian Ikon -->

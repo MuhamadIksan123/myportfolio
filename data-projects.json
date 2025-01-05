@@ -53,7 +53,8 @@
     "icons": [
       "assets/icons/nextjs.svg",
       "assets/icons/tailwind.svg",
-      "assets/icons/prisma-orm.svg"
+      "assets/icons/prisma-orm.svg",
+      "assets/icons/react.svg"
     ]
   },
   {
@@ -69,9 +70,9 @@
   },
   {
     "judul": "Website Presensi",
-    "gambar": "assets/images/project/job_portal.png",
+    "gambar": "assets/images/project/presensi.png",
     "deskripsi": "Website Presensi. Untuk mempermudah pekerja dalam melakukan presensi serta pengelolaan datanya",
-    "url": "https://chambray-stoat-c50.notion.site/Wesite-Portal-Job-16795e81049380e991b8efb9ccf5cebf",
+    "url": "https://chambray-stoat-c50.notion.site/Web-App-Presensi-17295e81049380ada43ceed6788d5ab2",
     "icons": [
       "assets/icons/codeigniter.svg",
       "assets/icons/mysql.svg",
