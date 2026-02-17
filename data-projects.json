@@ -1,0 +1,82 @@
+[
+  {
+    "judul": "Marketplace dan Baca Komik",
+    "gambar": "assets/images/project/Semina-Landing-Page2.png",
+    "deskripsi": "Website Marketplace, Baca dan Publikasi Komik. Untuk mempermudah transaksi dan baca komik",
+    "url": "https://chambray-stoat-c50.notion.site/Marketplace-Komik-16795e8104938087b651e011db87e74a",
+    "icons": [
+      "assets/icons/mongodb.svg",
+      "assets/icons/expressjs.svg",
+      "assets/icons/react.svg",
+      "assets/icons/nodejs.svg",
+      "assets/icons/nextjs.svg",
+      "assets/icons/bootstrap.svg"
+    ]
+  },
+  {
+    "judul": "Website Informasi Desa",
+    "gambar": "assets/images/project/belawa.jpg",
+    "deskripsi": "Website Portal Berita Desa Belawa. Untuk mempermudah mendapatkan informasi Desa Belawa",
+    "url": "https://berita-desa-belawa.vercel.app",
+    "icons": [
+      "assets/icons/react.svg",
+      "assets/icons/tailwind.svg",
+      "assets/icons/nextjs.svg"
+    ]
+  },
+  {
+    "judul": "Web Profil UMKM Mangga",
+    "gambar": "assets/images/project/mangga.png",
+    "deskripsi": "Website Profil UMKM Mangga Belawa. Untuk mempromsikan dan mempermudah transaksi",
+    "url": "https://melcika-belawa.netlify.app/",
+    "icons": [
+      "assets/icons/html.svg",
+      "assets/icons/css.svg"
+    ]
+  },
+  {
+    "judul": "Website Pesantren Al-Hijrah",
+    "gambar": "assets/images/project/website-pesantren.png",
+    "deskripsi": "Website Informasi Pensantren Al-Hijrah. Untuk mempermudah mendapatkan kegiatan pesantren Al-Hijrah",
+    "url": "https://chambray-stoat-c50.notion.site/Website-Pesantren-Al-Hijrah-16795e81049380a4a824e2b503689fb1?pvs=74",
+    "icons": [
+      "assets/icons/laravel.svg",
+      "assets/icons/mysql.svg",
+      "assets/icons/bootstrap.svg"
+    ]
+  },
+  {
+    "judul": "Website Anime List",
+    "gambar": "assets/images/project/sananimelist.png",
+    "deskripsi": "Website Anime List. Untuk mendapatkan list informasi anime terbaru serta menampilkan video singkatnya",
+    "url": "https://san-animelist.vercel.app/",
+    "icons": [
+      "assets/icons/nextjs.svg",
+      "assets/icons/tailwind.svg",
+      "assets/icons/prisma-orm.svg",
+      "assets/icons/react.svg"
+    ]
+  },
+  {
+    "judul": "Website Portal Job",
+    "gambar": "assets/images/project/job_portal.png",
+    "deskripsi": "Website Portal Job. Untuk mempermudah mendapatkan pekerjaan yang sesuai dengan minat",
+    "url": "https://chambray-stoat-c50.notion.site/Wesite-Portal-Job-16795e81049380e991b8efb9ccf5cebf",
+    "icons": [
+      "assets/icons/laravel.svg",
+      "assets/icons/mysql.svg",
+      "assets/icons/tailwind.svg"
+    ]
+  },
+  {
+    "judul": "Website Presensi",
+    "gambar": "assets/images/project/presensi.png",
+    "deskripsi": "Website Presensi. Untuk mempermudah pekerja dalam melakukan presensi serta pengelolaan datanya",
+    "url": "https://chambray-stoat-c50.notion.site/Web-App-Presensi-17295e81049380ada43ceed6788d5ab2",
+    "icons": [
+      "assets/icons/codeigniter.svg",
+      "assets/icons/mysql.svg",
+      "assets/icons/bootstrap.svg"
+    ]
+  }
+]
