@@ -1,12 +1,14 @@
-import { motion } from 'motion/react';
-import { EXPERIENCES } from '../data.ts';
+import { motion } from "motion/react";
+import { EXPERIENCES } from "../data.ts";
 
 export default function Experience() {
   return (
     <section id="experience" className="slide-section bg-slate-50/50">
       <div className="max-w-7xl mx-auto">
         <div className="mb-12 text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 mb-2">Professional Journey</h2>
+          <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 mb-2">
+            Professional Journey
+          </h2>
           <div className="h-1.5 w-16 bg-primary-500 rounded-full mx-auto md:mx-0"></div>
         </div>
 
@@ -25,17 +27,23 @@ export default function Experience() {
                   <h3 className="text-xl md:text-2xl font-black text-slate-900 leading-tight group-hover:text-primary-600 transition-colors">
                     {exp.role}
                   </h3>
-                  <span className={`w-fit px-2.5 py-1 rounded-md text-[10px] font-black uppercase tracking-widest border ${
-                    exp.type === 'Full Time' ? 'bg-green-50 text-green-600 border-green-100' :
-                    exp.type === 'Internship' ? 'bg-orange-50 text-orange-600 border-orange-100' :
-                    exp.type === 'Part Time' ? 'bg-blue-50 text-blue-600 border-blue-100' :
-                    exp.type === 'Project Based' ? 'bg-purple-50 text-purple-600 border-purple-100' :
-                    'bg-slate-50 text-slate-600 border-slate-100'
-                  }`}>
+                  <span
+                    className={`w-fit px-2.5 py-1 rounded-md text-[10px] font-black uppercase tracking-widest border ${
+                      exp.type === "Full Time"
+                        ? "bg-green-50 text-green-600 border-green-100"
+                        : exp.type === "Internship"
+                          ? "bg-orange-50 text-orange-600 border-orange-100"
+                          : exp.type === "Part Time"
+                            ? "bg-blue-50 text-blue-600 border-blue-100"
+                            : exp.type === "Project Based"
+                              ? "bg-purple-50 text-purple-600 border-purple-100"
+                              : "bg-slate-50 text-slate-600 border-slate-100"
+                    }`}
+                  >
                     {exp.type}
                   </span>
                 </div>
-                
+
                 <div className="flex flex-col gap-1.5 mb-4">
                   <p className="text-xs md:text-sm font-bold text-slate-500 uppercase tracking-widest">
                     {exp.company}
@@ -49,10 +57,13 @@ export default function Experience() {
                   {exp.description}
                 </p>
               </div>
-              
-              <div className="flex flex-wrap gap-2 pt-4 md:pt-0">
-                {exp.tech.slice(0, 3).map((t) => (
-                  <span key={t} className="text-[10px] font-bold px-2 py-1 bg-slate-50 text-slate-500 rounded-md uppercase tracking-wider">
+
+              <div className="flex flex-wrap gap-2 pt-4 md:pt-0 md:grid md:grid-cols-3 md:gap-3 md:max-w-[30%]">
+                {exp.tech.slice(0, 6).map((t) => (
+                  <span
+                    key={t}
+                    className="text-[10px] font-bold px-2 py-1 bg-slate-50 text-slate-500 rounded-md uppercase tracking-wider text-center"
+                  >
                     {t}
                   </span>
                 ))}

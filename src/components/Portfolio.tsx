@@ -18,9 +18,9 @@ import {
 
 const FILTERS = [
   "All",
-  "ReactJs",
+  "ReactJS",
   "Laravel",
-  "CodeIgniter",
+  "JavaScript",
   "HTML / CSS",
   "ASP.NET",
 ];
@@ -60,52 +60,41 @@ function ProjectModal({
             alt={project.title}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-linear-to-t from-slate-900/40 to-transparent"></div>
-          <div className="absolute bottom-8 left-8 right-8">
-            <div className="flex flex-wrap gap-2 mb-3">
-              <span className="px-3 py-1 bg-white/20 backdrop-blur-md text-white border border-white/20 rounded-full text-[10px] font-black uppercase tracking-widest">
-                {project.category}
-              </span>
-              <span className="px-3 py-1 bg-green-500/80 backdrop-blur-md text-white rounded-full text-[10px] font-black uppercase tracking-widest">
-                {project.status || "Completed"}
-              </span>
-            </div>
-          </div>
         </div>
 
-        <div className="md:w-1/2 p-8 md:p-14 overflow-y-auto no-scrollbar flex flex-col gap-10">
-          <div className="space-y-4">
+        <div className="md:w-1/2 p-6 md:p-14 overflow-y-auto no-scrollbar flex flex-col gap-6 md:gap-10">
+          <div className="space-y-3 md:space-y-4">
             <div className="flex items-center gap-3">
-              <span className="flex items-center gap-1.5 text-[10px] font-black text-primary-500 uppercase tracking-[0.2em]">
+              <span className="flex items-center gap-1.5 text-[9px] md:text-[10px] font-black text-primary-500 uppercase tracking-[0.2em]">
                 <Code size={12} /> {project.role}
               </span>
             </div>
-            <h2 className="text-3xl md:text-5xl font-display font-black text-slate-900 leading-tight tracking-tight">
+            <h2 className="text-2xl md:text-5xl font-display font-black text-slate-900 leading-tight tracking-tight">
               {project.title}
             </h2>
           </div>
 
-          <div className="space-y-8">
-            <div className="space-y-3">
-              <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 flex items-center gap-2">
+          <div className="space-y-6 md:space-y-8">
+            <div className="space-y-2 md:space-y-3">
+              <h4 className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 flex items-center gap-2">
                 <Layout size={14} className="text-primary-500" /> Executive
                 Summary
               </h4>
-              <p className="text-sm md:text-base text-slate-600 leading-relaxed opacity-90">
+              <p className="text-xs md:text-base text-slate-600 leading-relaxed opacity-90">
                 {project.description}
               </p>
             </div>
 
-            <div className="space-y-4">
-              <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 flex items-center gap-2">
+            <div className="space-y-3 md:space-y-4">
+              <h4 className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 flex items-center gap-2">
                 <Palette size={14} className="text-primary-500" /> Technology
                 Ecosystem
               </h4>
-              <div className="flex flex-wrap gap-4 py-2">
+              <div className="flex flex-wrap gap-3 md:gap-4 py-2">
                 {project.tools.map((tool) => (
                   <span
                     key={tool}
-                    className="text-xs font-black text-slate-500 uppercase tracking-widest"
+                    className="text-[10px] md:text-xs font-black text-slate-500 uppercase tracking-widest"
                   >
                     {tool}
                   </span>
@@ -114,15 +103,15 @@ function ProjectModal({
             </div>
           </div>
 
-          <div className="pt-10 mt-auto border-t border-slate-100 flex flex-col sm:flex-row gap-4">
+          <div className="pt-6 md:pt-10 mt-auto border-t border-slate-100 flex flex-row gap-2 md:gap-4">
             {project.liveUrl && (
               <a
                 href={project.liveUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 flex items-center justify-center gap-3 px-8 py-4.5 bg-primary-600 text-white rounded-2xl text-[11px] font-black uppercase tracking-[0.15em] hover:bg-primary-700 shadow-xl shadow-primary-500/25 transition-all hover:-translate-y-1 active:scale-95"
+                className="flex-1 flex items-center justify-center gap-2 px-4 py-3 md:px-8 md:py-4.5 bg-primary-600 text-white rounded-xl md:rounded-2xl text-[10px] md:text-[11px] font-black uppercase tracking-[0.15em] hover:bg-primary-700 shadow-xl shadow-primary-500/25 transition-all hover:-translate-y-1 active:scale-95"
               >
-                View Live Preview <Globe size={18} />
+                Web <Globe size={18} />
               </a>
             )}
             {project.githubUrl && (
@@ -130,9 +119,9 @@ function ProjectModal({
                 href={project.githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 flex items-center justify-center gap-3 px-8 py-4.5 bg-slate-900 text-white rounded-2xl text-[11px] font-black uppercase tracking-[0.15em] hover:bg-slate-800 shadow-xl shadow-slate-900/20 transition-all hover:-translate-y-1 active:scale-95 border border-slate-800"
+                className="flex-1 flex items-center justify-center gap-2 px-4 py-3 md:px-8 md:py-4.5 bg-slate-900 text-white rounded-xl md:rounded-2xl text-[10px] md:text-[11px] font-black uppercase tracking-[0.15em] hover:bg-slate-800 shadow-xl shadow-slate-900/20 transition-all hover:-translate-y-1 active:scale-95 border border-slate-800"
               >
-                Github Access <Github size={18} />
+                Github <Github size={18} />
               </a>
             )}
           </div>
