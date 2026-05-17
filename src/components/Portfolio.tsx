@@ -18,11 +18,11 @@ import {
 
 const FILTERS = [
   "All",
+  "ASP.NET",
   "ReactJS",
   "Laravel",
   "JavaScript",
   "HTML / CSS",
-  "ASP.NET",
 ];
 
 function ProjectModal({
