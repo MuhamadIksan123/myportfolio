@@ -1,0 +1,8 @@
+{
+  "name": "Iksan - Web Developer Portfolio",
+  "description": "A modern, recruiter-friendly personal portfolio for a web developer & UI/UX enthusiast.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
