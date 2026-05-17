@@ -109,9 +109,9 @@ function ProjectModal({
                 href={project.liveUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 flex items-center justify-center gap-2 px-4 py-3 md:px-8 md:py-4.5 bg-primary-600 text-white rounded-xl md:rounded-2xl text-[10px] md:text-[11px] font-black uppercase tracking-[0.15em] hover:bg-primary-700 shadow-xl shadow-primary-500/25 transition-all hover:-translate-y-1 active:scale-95"
+                className="flex-1 flex items-center justify-center gap-1.5 px-3 py-3 md:px-8 md:py-4.5 bg-primary-600 text-white rounded-xl md:rounded-2xl text-[9px] md:text-[11px] font-black uppercase tracking-[0.15em] hover:bg-primary-700 shadow-xl shadow-primary-500/25 transition-all hover:-translate-y-1 active:scale-95"
               >
-                Web <Globe size={18} />
+                Web <Globe size={16} />
               </a>
             )}
             {project.githubUrl && (
@@ -119,9 +119,9 @@ function ProjectModal({
                 href={project.githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 flex items-center justify-center gap-2 px-4 py-3 md:px-8 md:py-4.5 bg-slate-900 text-white rounded-xl md:rounded-2xl text-[10px] md:text-[11px] font-black uppercase tracking-[0.15em] hover:bg-slate-800 shadow-xl shadow-slate-900/20 transition-all hover:-translate-y-1 active:scale-95 border border-slate-800"
+                className="flex-1 flex items-center justify-center gap-1.5 px-3 py-3 md:px-8 md:py-4.5 bg-slate-900 text-white rounded-xl md:rounded-2xl text-[9px] md:text-[11px] font-black uppercase tracking-[0.15em] hover:bg-slate-800 shadow-xl shadow-slate-900/20 transition-all hover:-translate-y-1 active:scale-95 border border-slate-800"
               >
-                Github <Github size={18} />
+                Github <Github size={16} />
               </a>
             )}
           </div>

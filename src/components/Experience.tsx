@@ -58,11 +58,11 @@ export default function Experience() {
                 </p>
               </div>
 
-              <div className="flex flex-wrap gap-2 pt-4 md:pt-0 md:grid md:grid-cols-3 md:gap-3 md:max-w-[30%]">
+              <div className="flex flex-wrap gap-2 pt-4 md:pt-0 md:max-w-[280px] md:justify-center">
                 {exp.tech.slice(0, 6).map((t) => (
                   <span
                     key={t}
-                    className="text-[10px] font-bold px-2 py-1 bg-slate-50 text-slate-500 rounded-md uppercase tracking-wider text-center"
+                    className="text-[10px] font-bold px-3 py-1.5 bg-slate-50 text-slate-500 rounded-md uppercase tracking-wider text-center min-w-[80px]"
                   >
                     {t}
                   </span>
