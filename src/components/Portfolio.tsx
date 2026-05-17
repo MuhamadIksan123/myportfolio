@@ -16,14 +16,7 @@ import {
   Target,
 } from "lucide-react";
 
-const FILTERS = [
-  "All",
-  "ASP.NET",
-  "ReactJS",
-  "Laravel",
-  "JavaScript",
-  "HTML / CSS",
-];
+const FILTERS = ["All", "ASP.NET", "ReactJs", "Laravel", "HTML / CSS"];
 
 function ProjectModal({
   project,
