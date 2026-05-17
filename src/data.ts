@@ -407,6 +407,7 @@ export const PROFILE = {
   role: "Web Developer",
   bio: "Developer with experience building modern, responsive, and scalable web applications using front-end and back-end technologies.",
   email: "mailto:muhamadiksan351@gmail.com",
+  gmail: "muhamadiksan351@gmail.com",
   github: "https://github.com/MuhamadIksan123",
   linkedin: "https://www.linkedin.com/in/muhamadiksan351",
   photo: "photo-profile.png",

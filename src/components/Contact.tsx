@@ -93,7 +93,7 @@ export default function Contact() {
                       <Mail size={16} />
                     </div>
                     <span className="text-xs md:text-sm font-medium truncate">
-                      {PROFILE.email}
+                      {PROFILE.gmail}
                     </span>
                   </a>
                   <div className="flex items-center gap-3 text-white">
